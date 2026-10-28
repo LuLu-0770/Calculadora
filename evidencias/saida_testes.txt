@@ -1,0 +1,63 @@
+=== TESTES DA CALCULADORA ===
+
+Teste: Soma
+  Entradas : a=10, b=5, op=+
+  Esperado : 15
+  Obtido   : 15
+  Resultado: PASSOU
+
+Teste: Soma com negativo
+  Entradas : a=-3, b=8, op=+
+  Esperado : 5
+  Obtido   : 5
+  Resultado: PASSOU
+
+Teste: Subtracao
+  Entradas : a=10, b=4, op=-
+  Esperado : 6
+  Obtido   : 6
+  Resultado: PASSOU
+
+Teste: Multiplicacao
+  Entradas : a=6, b=7, op=*
+  Esperado : 42
+  Obtido   : 42
+  Resultado: PASSOU
+
+Teste: Divisao exata
+  Entradas : a=20, b=4, op=/
+  Esperado : 5.0
+  Obtido   : 5.0
+  Resultado: PASSOU
+
+Teste: Divisao decimal
+  Entradas : a=5, b=2, op=/
+  Esperado : 2.5
+  Obtido   : 2.5
+  Resultado: PASSOU
+
+Teste: Divisao por zero
+  Entradas : a=10, b=0, op=/
+  Esperado : Erro: divisao por zero nao e permitida.
+  Obtido   : Erro: divisao por zero nao e permitida.
+  Resultado: PASSOU
+
+Teste: Operacao invalida
+  Entradas : a=10, b=5, op=%
+  Esperado : Erro: operacao invalida.
+  Obtido   : Erro: operacao invalida.
+  Resultado: PASSOU
+
+Teste: Operacao nula
+  Entradas : a=10, b=5, op=null
+  Esperado : Erro: operacao invalida.
+  Obtido   : Erro: operacao invalida.
+  Resultado: PASSOU
+
+Teste: Overflow na soma
+  Entradas : a=2147483647, b=1, op=+
+  Esperado : 2147483648
+  Obtido   : 2147483648
+  Resultado: PASSOU
+
+=== RESUMO: 10/10 testes aprovados ===
