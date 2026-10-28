@@ -22,6 +22,10 @@ public class Calculadora {
     /** Mensagem devolvida quando o operador informado não é suportado (ou é nulo). */
     private static final String MSG_OPERACAO_INVALIDA = "Erro: operacao invalida.";
 
+    /** Cria uma nova calculadora (não possui estado interno). */
+    public Calculadora() {
+    }
+
     /**
      * Executa uma operação matemática entre dois números inteiros.
      * <p>

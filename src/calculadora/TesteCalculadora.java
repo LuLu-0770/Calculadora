@@ -18,6 +18,10 @@ public class TesteCalculadora {
     /** Quantidade de testes que passaram. */
     private static int aprovados = 0;
 
+    /** Construtor padrão (a classe é usada apenas pelo método {@code main}). */
+    public TesteCalculadora() {
+    }
+
     /**
      * Executa um teste e exibe entradas, resultado esperado e resultado obtido.
      *
