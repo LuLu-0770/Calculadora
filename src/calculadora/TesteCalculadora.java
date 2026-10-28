@@ -1,11 +1,32 @@
 package calculadora;
 
+/**
+ * Testes unitários da classe {@link Calculadora}.
+ * <p>
+ * Não depende de bibliotecas externas: cada teste imprime as entradas utilizadas,
+ * o resultado esperado, o resultado obtido e se passou ou falhou.
+ * Se algum teste falhar, o programa termina com código de saída 1.
+ * </p>
+ *
+ * @author Aluno
+ * @version 1.0
+ */
 public class TesteCalculadora {
 
+    /** Quantidade total de testes executados. */
     private static int total = 0;
+    /** Quantidade de testes que passaram. */
     private static int aprovados = 0;
 
-    // Executa um teste, mostra entradas, esperado e obtido
+    /**
+     * Executa um teste e exibe entradas, resultado esperado e resultado obtido.
+     *
+     * @param nome     descrição do cenário testado
+     * @param a        primeiro operando
+     * @param b        segundo operando
+     * @param op       operador
+     * @param esperado resultado que a calculadora deve retornar
+     */
     private static void testar(String nome, int a, int b, String op, String esperado) {
         String obtido = new Calculadora().calc(a, b, op);
         boolean ok = esperado.equals(obtido);
@@ -21,6 +42,12 @@ public class TesteCalculadora {
         System.out.println();
     }
 
+    /**
+     * Executa todos os testes: soma, subtração, multiplicação, divisão,
+     * divisão por zero e operações inválidas.
+     *
+     * @param args argumentos de linha de comando (não utilizados)
+     */
     public static void main(String[] args) {
         System.out.println("=== TESTES DA CALCULADORA ===\n");
 
