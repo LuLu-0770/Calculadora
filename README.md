@@ -228,7 +228,9 @@ Para visualizar, abra `docs/index.html` no navegador.
 
 ### Prints da documentação JavaDoc
 
-![JavaDoc](images/javadoc/print_javadoc.png)
+![JavaDoc - classe Calculadora](images/javadoc/print_javadoc.png)
+
+![JavaDoc - index.html](images/javadoc/print_javadoc_index.png)
 
 ---
 
