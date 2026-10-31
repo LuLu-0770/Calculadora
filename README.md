@@ -9,8 +9,8 @@
 **Projeto:** Projeto Calculadora  
 **Contexto:** FinançApp  
 **Aluno:** Luan Gomes Marques  
-**RA:** SEU RA  
-**Curso:** NOME DO CURSO  
+**RA:** 251501  
+**Curso:** Análise e Desenvolvimento de Sistemas  
 **Disciplina:** NOME DA DISCIPLINA  
 **Professor:** NOME DO PROFESSOR  
 **Semestre:** 2026.2  
@@ -244,4 +244,4 @@ Para visualizar, abra `docs/index.html` no navegador.
 
 # 15. Link do Repositório
 
-https://github.com/SEU_USUARIO/projeto_calculadora
+https://github.com/LuLu-0770/Calculadora
