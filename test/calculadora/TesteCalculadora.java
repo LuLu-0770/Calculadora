@@ -8,7 +8,7 @@ package calculadora;
  * Se algum teste falhar, o programa termina com código de saída 1.
  * </p>
  *
- * @author Aluno
+ * @author Luan Gomes Marques
  * @version 1.0
  */
 public class TesteCalculadora {

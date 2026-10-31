@@ -8,7 +8,7 @@
 
 **Projeto:** Projeto Calculadora  
 **Contexto:** FinançApp  
-**Aluno:** SEU NOME COMPLETO  
+**Aluno:** Luan Gomes Marques  
 **RA:** SEU RA  
 **Curso:** NOME DO CURSO  
 **Disciplina:** NOME DA DISCIPLINA  

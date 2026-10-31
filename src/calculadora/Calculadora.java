@@ -11,7 +11,7 @@ package calculadora;
  * são devolvidos como mensagem de texto no retorno do método {@link #calc(int, int, String)}.
  * </p>
  *
- * @author Aluno
+ * @author Luan Gomes Marques
  * @version 1.0
  */
 public class Calculadora {
