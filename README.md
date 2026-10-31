@@ -11,7 +11,7 @@
 **Aluno:** Luan Gomes Marques  
 **RA:** 251501  
 **Curso:** Análise e Desenvolvimento de Sistemas  
-**Disciplina:** NOME DA DISCIPLINA  
+**Disciplina:** UX/UI e Testes de Software  
 **Professor:** Daniel Domingos Akira de Sa Pimentel Ohata  
 **Semestre:** 2026.2  
 
