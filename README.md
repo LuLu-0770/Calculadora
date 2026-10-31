@@ -113,7 +113,7 @@ Desenvolver uma calculadora em Java aplicando práticas de qualidade, testes, do
 | Git | 2.43 | Controle de versão |
 | GitHub | — | Repositório remoto |
 | JavaDoc | JDK 21 | Documentação |
-| IDE | NOME DA IDE (ex.: IntelliJ, Eclipse, VS Code) | Ambiente de desenvolvimento |
+| IDE | Visual Studio Code | Ambiente de desenvolvimento |
 
 ---
 
